@@ -53,6 +53,6 @@ class PagesCollection implements IteratorAggregate
      */
     public function getIterator()
     {
-        return new \ArrayIterator($this->pages);
+        return new ArrayIterator($this->pages);
     }
 }
