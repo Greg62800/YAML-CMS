@@ -7,7 +7,7 @@ function url($path){
 
 /* Get a quick instance of PagesCollection from a path */
 function pages($path, $depth = 0){
-    return new \App\PagesCollection($path, $depth);
+    return new App\PagesCollection($path, $depth);
 }
 
 /* Return the URL for the Page or the route */
