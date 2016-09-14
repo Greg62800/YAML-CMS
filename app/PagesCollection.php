@@ -8,6 +8,7 @@ use RecursiveIteratorIterator;
 use RecursiveRegexIterator;
 use RegexIterator;
 use Traversable;
+use ArrayIterator;
 
 /**
  * PagesCollection offers convenience methods to query and get multiple pages
